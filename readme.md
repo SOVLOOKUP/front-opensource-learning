@@ -44,7 +44,7 @@
 
 - 需要python基础
 
-- 需要JavaScript HTML基础
+- 了解过JavaScript和HTML技术
 
 **需求**
 

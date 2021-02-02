@@ -1,0 +1,557 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>readme</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+
+</style>
+</head>
+<body class='typora-export'>
+<div id='write'  class=' first-line-indent'><h1><a name="数据分析者的前端开源学习路线设计中" class="md-header-anchor"></a><span>数据分析者的前端开源学习路线(设计中)</span></h1><p><span>本来是自己学习的路线，但是和别人沟通以后发现，原来这个痛点很普遍，于是写下这个路线，希望感兴趣的小伙伴来一起参与开源学习.</span></p><h2><a name="问题背景" class="md-header-anchor"></a><span>问题背景</span></h2><h3><a name="需求" class="md-header-anchor"></a><span>需求</span></h3><ul><li><span>项目中，有关数据和结果展示的部分，有</span><strong><span>可视化和交互的需求</span></strong></li><li><span>有的时候需要简单的表单按钮交互，有的时候需要网页中呈现可视化后的数据结果，甚至直接在可视化图表上与数据进行交互分析</span></li><li><span>plotly和pyecharts生成的图表交互和</span><strong><span>表现力很有限</span></strong><span>，</span><strong><span>效果并不是很好</span></strong><span>，交互只能用input/output，或flask/django做一些</span><strong><span>简陋的页面</span></strong><span>，但不能满足需求</span></li><li><span>虽然demo能够运行但不能给使用者良好的体验，但我想像那些大佬一样做出</span><strong><span>真正让人惊艳的产品</span></strong></li></ul><h3><a name="现状" class="md-header-anchor"></a><span>现状</span></h3><ul><li><span>人都是颜值党(颜值即正义)，自己</span><strong><span>辛辛苦苦读论文写代码算法做出来的项目，还没有界面做的漂亮的项目有优势</span></strong></li><li><span>比赛的时候评委看到最后视觉疲劳，不看我的代码思路和公式，有</span><strong><span>好的交互展示创意的项目反而让评委眼前一亮</span></strong><span>，拿到高分</span></li><li><span>每个系统都有自己自带的可视化，有的还很漂亮，但是</span><strong><span>无法接入自己的项目</span></strong><span>，看着心痒痒</span></li><li><span>网上找了很多产品有的缺功能有的不好看有的不开源，总</span><strong><span>不能满足自己所有的需求</span></strong><span>，找前端公司定制又太贵</span></li></ul><h2><a name="案例" class="md-header-anchor"></a><span>案例</span></h2><p><strong><span>DataWhale 成员　段同学</span></strong></p><blockquote><p><span>在21期知识图谱打卡学习之后，我想把neo4j里知识图谱可视化的效果集成到自己的项目中，但是发现自己既缺少相应的前端知识，也没有合适的Python组件和工具．</span></p></blockquote><p>&nbsp;</p><p><strong><span>某比赛参赛项目队长　夏同学</span></strong></p><blockquote><p><span>项目关于知识图谱偏应用方向，需求是建立知识图谱并且利用知识图谱进行展示分析．但是在技术选型的时候发现没有完全符合需求的可视化套件．不想已经做好的项目成果没有美观的展示而吃亏．</span></p></blockquote><h2><a name="谁适合参加" class="md-header-anchor"></a><span>谁适合参加</span></h2><p><strong><span>基础</span></strong></p><ul><li><span>需要python基础</span></li><li><span>了解过JavaScript和HTML技术</span></li></ul><p><strong><span>需求</span></strong></p><ul><li><span>想入门学习前端，但不是专业的开发人员</span></li><li><span>开源项目爱好者，但是一个人的力量太小</span></li><li><span>有项目和比赛需求，但不知到如何解决</span></li><li><span>做了很多技术工作，但是因为沟通和展示问题不被认可</span></li></ul><h2><a name="参加能获得什么" class="md-header-anchor"></a><span>参加能获得什么</span></h2><ul><li><span>快速前端开发能力</span></li><li><span>图数据分析能力</span></li><li><span>出众的数据展示与可视化能力</span></li><li><span>团队协作与沟通能力</span></li><li><span>开源成就感和开源产品思维</span></li><li><span>比赛技巧与项目经验</span></li></ul><h2><a name="学习路线规划" class="md-header-anchor"></a><span>学习路线规划</span></h2><p><span>因为本路线是写给数据分析者的，所以从数据分析的业务开始，以现在火起来的图数据分析为学习切入点，渐进式学习</span></p><p><span>Graph is the future.</span></p><h3><a name="1-前端与图数据分析基础" class="md-header-anchor"></a><span>1. 前端与图数据分析基础</span></h3><h4><a name="11-图数据处理入门" class="md-header-anchor"></a><span>1.1 图数据处理入门</span></h4><ol start='' ><li><span>知识图谱了解(接21期知识图谱学习)</span></li><li><span>图数据库了解(</span><strong><a href='https://www.arangodb.com/'><span>ArangodDB</span></a></strong><span>)</span></li><li><span>图数据分析了解(图数据理论)</span></li></ol><h4><a name="12-前端基础知识" class="md-header-anchor"></a><span>1.2 前端基础知识</span></h4><ol start='' ><li><strong><a href='https://svelte.dev/'><span>svelte</span></a></strong><span>框架</span></li><li><strong><a href='https://d3js.org/'><span>d3.js</span></a></strong><span>基础可视化练习(柱状图,饼图,河流图)</span></li><li><span>基于</span><strong><a href='https://d3js.org/'><span>d3.js</span></a></strong><span>的图可视化开源组件</span><strong><a href='https://gitee.com/baopengdu/GraphVis'><span>GraphVis</span></a></strong></li></ol><h4><a name="13-可视化你的知识图谱图数据分析结合与前端展示结合" class="md-header-anchor"></a><span>1.3 可视化你的知识图谱(图数据分析结合与前端展示结合)</span></h4><p>&nbsp;</p><p><img src="project.assets/simplescreenrecorder-2021-01-30_23.03.19%2000_00_02-00_00_10%20%5B480p%5D.gif" referrerpolicy="no-referrer" alt="simplescreenrecorder-2021-01-30_23.03.19 00_00_02-00_00_10 [480p]"></p><p>&nbsp;</p><h3><a name="2-前端低代码开发原理已get-搭上最酷的快车" class="md-header-anchor"></a><span>2. 前端低代码开发(原理已get 搭上最酷的快车)</span></h3><p><span>基于</span><strong><span>完全开源</span></strong><span>的低代码开发平台：</span><a href='https://www.budibase.com/' target='_blank' class='url'>https://www.budibase.com/</a><span>　开发应用</span></p><p><span>像excel一样编辑数据</span></p><p><img src="project.assets/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_plasmashell_20210130231512.png" alt="深度截图_plasmashell_20210130231512" style="zoom: 50%;" /></p><p><span>可见即可得地编辑页面</span></p><p><img src="project.assets/design-ui.png" alt="Design" style="zoom:50%;" /></p><p><span>用流程图表示程序</span></p><p><img src="project.assets/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_plasmashell_20210130231534.png" alt="深度截图_plasmashell_20210130231534" style="zoom:50%;" /></p><p><span>部署上线</span></p><p><img src="project.assets/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_plasmashell_20210130231615.png" alt="深度截图_plasmashell_20210130231615" style="zoom:50%;" /></p><h4><a name="大作业为1kstar的开源项目贡献图可视化组件" class="md-header-anchor"></a><span>大作业(为1k+star的开源项目贡献图可视化组件)</span></h4><p><img width="140" height="50"  src="project.assets/budibase-logo.svg"/><span> </span><a href='https://github.com/Budibase/budibase' target='_blank' class='url'>https://github.com/Budibase/budibase</a></p><p><strong><span>目的</span></strong><span>：</span></p><ul><li><span>熟悉如何快速地给自己的项目作品加上一个美观的前端界面，以最少的工作量满足数据可视化，表单交互，数据库管理等等需求</span></li><li><span>基于开源项目开发，把实现的功能提交到原项目中，最大化减少重复劳动，真正达到人人为我我为人人的开源精神</span></li></ul><p><strong><span>收获</span></strong><span>：</span></p><ul><li><span>培养代码规范，产品能力，了解一流开源产品的现状</span></li><li><span>亲身参与开源项目建设，亲历开源贡献过程，感受国际开源社区氛围，找到开源成就感，培养开源思维</span></li></ul><h3><a name="3-图数据分析实战数据分析与前端可视化分析结合的完整项目" class="md-header-anchor"></a><span>3. 图数据分析实战(数据分析与前端可视化分析结合的完整项目)</span></h3><h4><a name="31-图数据分析原理python库" class="md-header-anchor"></a><span>3.1 图数据分析原理(python库)</span></h4><p><img src="project.assets/68747470733a2f2f706572736f2e74656c65636f6d2d7061726973746563682e66722f626f6e616c642f6c6f676f5f736b6e6574776f726b2e706e67" style="zoom: 80%;" /></p><p><a href='https://github.com/sknetwork-team/scikit-network' target='_blank' class='url'>https://github.com/sknetwork-team/scikit-network</a></p><h4><a name="32-图数据分析可视化实战" class="md-header-anchor"></a><span>3.2 图数据分析可视化实战</span></h4><p><img src="project.assets/68747470733a2f2f67772e616c697061796f626a656374732e636f6d2f6d646e2f726d735f3030656463622f616674732f696d672f412a4e2d35505436554f394c414141414141414141414141426b4152516e4151" style="zoom: 50%;" /></p><p><a href='https://github.com/antvis/Graphin' target='_blank' class='url'>https://github.com/antvis/Graphin</a></p><h3><a name="4-图数据时空分析实战" class="md-header-anchor"></a><span>4. 图数据时空分析实战</span></h3><p><img src="project.assets/65d5dbe8-d78d-4c6b-9318-fa06b1456784%2000_00_00-00_00_08%20%5B480p%5D.gif" referrerpolicy="no-referrer" alt="65d5dbe8-d78d-4c6b-9318-fa06b1456784 00_00_00-00_00_08 [480p]"></p><p><a href='https://github.com/antvis/L7' target='_blank' class='url'>https://github.com/antvis/L7</a><span> or </span><a href='https://github.com/keplergl/kepler.gl' target='_blank' class='url'>https://github.com/keplergl/kepler.gl</a></p><h3><a name="5-ｍore" class="md-header-anchor"></a><span>5. Ｍore...</span></h3><p><span>打算做些更酷的东西？一次来参与学习路线规划吧～</span></p><h2><a name="创新点和价值" class="md-header-anchor"></a><span>创新点和价值</span></h2><center>
+    <h3>
+    开源共建　｜　解决痛点　｜　增长经验　｜　丰富生态
+    </h3>
+<center></center></center><h2><a name="已经有的资源" class="md-header-anchor"></a><span>已经有的资源</span></h2><p><span>BudiBase官方的支持(Discord)</span></p><h2><a name="评价体系" class="md-header-anchor"></a><span>评价体系</span></h2><p><span>量化考核</span></p><h3><a name="个人" class="md-header-anchor"></a><span>个人</span></h3><p><span>领导协作能力</span></p><p><span>问题沟通能力</span></p><p><span>技术思维能力</span></p><p><span>项目展示能力</span></p><h3><a name="团队" class="md-header-anchor"></a><span>团队</span></h3><p><span>影响力</span></p><p><span>活跃度</span></p><p><span>产品效果</span></p><p><span>团队建设(知识沉淀/管理分工)</span></p><h2><a name="路线设计考察分析记录" class="md-header-anchor"></a><span>路线设计考察分析记录</span></h2><p><span>以科学的方法规划路线</span><a href='https://www.deefinkandassociates.com/Chinese_SelfDirectedGuide.pdf'><sup><span>[1]</span></sup></a></p><h4><a name="基本信息" class="md-header-anchor"></a><span>基本信息</span></h4><ul><li><span>贡献人员：</span></li><li><span>学习周期：</span></li><li><span>学习形式：理论+实践</span></li><li><span>先修内容：</span><a href='https://github.com/datawhalechina/team-learning-program/tree/master/Python-Language'><span>Python编程语言</span></a><span> </span><a href='https://github.com/datawhalechina/team-learning-program/blob/master/WebSpider/task1%20HTTP%E3%80%81%E7%BD%91%E9%A1%B5%E5%9F%BA%E7%A1%80%E3%80%81requests%E3%80%81API%E3%80%81JS.md'><span>前端基础</span></a><span> </span></li><li><span>推荐内容：</span><a href='https://github.com/datawhalechina/team-learning-nlp/tree/master/KnowledgeGraph_Basic'><span>自然语言处理(知识图谱)</span></a><span> </span><a href='https://github.com/datawhalechina/team-learning-data-mining'><span>数据挖掘基础算法</span></a><span> </span></li><li><span>难度系数：中</span></li></ul><h4><a name="项目计划" class="md-header-anchor"></a><span>项目计划</span></h4><ul><li><span>Step1　　招募学习路线开源共建者</span></li><li><span>Step2　　共建者讨论实践改进学习方案,沉淀学习资料</span></li><li><span>Step3　　招募学习成员组队学习</span></li><li><span>Step4　　总结评价学习成果</span></li><li><span>Step5　　选拔积极者参与开源项目与学习路线构建</span></li></ul><h4><a name="学习安排" class="md-header-anchor"></a><span>学习安排</span></h4><figure><table><thead><tr><th style='text-align:center;' ><span>期数</span></th><th style='text-align:center;' ><span>主题</span></th><th style='text-align:center;' ><span>内容</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><span>第一期</span></td><td style='text-align:center;' ><span>前端与图数据分析基础</span></td><td style='text-align:center;' ><span>学习基础知识，自己做一个简单demo</span></td></tr><tr><td style='text-align:center;' ><span>第二期</span></td><td style='text-align:center;' ><span>前端低代码开发</span></td><td style='text-align:center;' ><span>接触并体验前端前沿技术，亲自动手完成开源贡献</span></td></tr><tr><td style='text-align:center;' ><span>第三期</span></td><td style='text-align:center;' ><span>图数据分析实战</span></td><td style='text-align:center;' ><span>深度了解图算法</span></td></tr><tr><td style='text-align:center;' ><span>第四期</span></td><td style='text-align:center;' ><span>图可视化分析实战</span></td><td style='text-align:center;' ><span>深度了解图可视化，并与图数据分析结合，完成一个高级demo</span></td></tr><tr><td style='text-align:center;' ><span>第五期</span></td><td style='text-align:center;' ><span>图数据时空分析实战</span></td><td style='text-align:center;' ><span>图与时空数据,分析与可视化结合，太酷了</span></td></tr><tr><td style='text-align:center;' ><span>第六期</span></td><td style='text-align:center;' ><span>图数据可视化综合实战</span></td><td style='text-align:center;' ><span>maybe一起打个比赛或是做个项目</span></td></tr></tbody></table></figure><h4><a name="技术选型" class="md-header-anchor"></a><span>技术选型</span></h4><p><strong><span>主要技术学习方向选择</span></strong></p><figure><table><thead><tr><th><span>名称</span></th><th><span>代表</span></th><th><span>创新性</span></th><th><span>美观性</span></th></tr></thead><tbody><tr><td><span>表数据分析</span></td><td><span>柱状图,饼图,折线图</span></td><td><span>否</span></td><td><span>中</span></td></tr><tr><td><span>图数据分析</span></td><td><span>关系图,河流图,地图</span></td><td><span>是</span></td><td><span>高</span></td></tr></tbody></table></figure><ul><li><span>随着nosql和newsql的越来越流行，图数据的规模越来越大，需求也日益增长，但是很多数据分析人员依然不熟悉甚至不知道图数据如何进行分析</span></li><li><span>比赛和项目重要的一个得分点是创新，图数据分析比表数据分析的应用更创新</span></li><li><span>Graph is the future.</span></li><li><span>以图数据分析为切入点能用新鲜感驱动学习者，给数据分析学习者熟悉又陌生的感觉</span></li></ul><p><strong><span>数据分析切入点工具选型</span></strong></p><figure><table><thead><tr><th><span>名称</span></th><th><span>语言</span></th><th><span>领域</span></th><th><span>性能</span></th><th><span>易用性</span></th></tr></thead><tbody><tr><td><strong><a href='https://github.com/networkx/networkx'><span>NetworkX</span></a></strong></td><td><span>python</span></td><td><span>图分析</span></td><td><span>中</span></td><td><span>中</span></td></tr><tr><td><strong><a href='https://github.com/sknetwork-team/scikit-network'><span>scikit-network</span></a></strong></td><td><span>python</span></td><td><span>图分析</span></td><td><span>较高</span></td><td><span>高</span></td></tr><tr><td><strong><a href='https://jena.apache.org/'><span>jena</span></a></strong></td><td><span>java</span></td><td><span>图分析</span></td><td><span>高</span></td><td><span>中</span></td></tr></tbody></table></figure><ul><li><strong><a href='https://github.com/sknetwork-team/scikit-network'><span>scikit-network</span></a></strong><span>用python比较容易入手，并且易用性更高</span><a href='https://zhuanlan.zhihu.com/p/345992526'><sup><span>[2]</span></sup></a></li></ul><p><strong><span>可视化分析工具选型</span></strong></p><figure><table><thead><tr><th style='text-align:center;' ><span>名称</span></th><th style='text-align:center;' ><span>语言</span></th><th style='text-align:center;' ><span>组件</span></th><th style='text-align:center;' ><span>灵活性</span></th><th style='text-align:center;' ><span>易用性</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><strong><a href='https://echarts.apache.org/'><span>Echarts</span></a></strong></td><td style='text-align:center;' ><span>python,javascript</span></td><td style='text-align:center;' ><span>丰富</span></td><td style='text-align:center;' ><span>中</span></td><td style='text-align:center;' ><span>高</span></td></tr><tr><td style='text-align:center;' ><strong><a href='https://d3js.org/'><span>D3.js</span></a></strong></td><td style='text-align:center;' ><span>javascript</span></td><td style='text-align:center;' ><span>丰富</span></td><td style='text-align:center;' ><span>高</span></td><td style='text-align:center;' ><span>中</span></td></tr><tr><td style='text-align:center;' ><strong><a href='https://g6.antv.vision/zh'><span>G6</span></a></strong></td><td style='text-align:center;' ><span>javascript</span></td><td style='text-align:center;' ><span>一般</span></td><td style='text-align:center;' ><span>高</span></td><td style='text-align:center;' ><span>中</span></td></tr><tr><td style='text-align:center;' ><strong><a href='https://graphin.antv.vision/'><span>Graphin</span></a></strong></td><td style='text-align:center;' ><span>js-react</span></td><td style='text-align:center;' ><span>丰富</span></td><td style='text-align:center;' ><span>差</span></td><td style='text-align:center;' ><span>高</span></td></tr><tr><td style='text-align:center;' ><strong><a href='https://gitee.com/baopengdu/GraphVis'><span>GraphVis</span></a></strong></td><td style='text-align:center;' ><span>javascript(基于D3)</span></td><td style='text-align:center;' ><span>一般</span></td><td style='text-align:center;' ><span>高</span></td><td style='text-align:center;' ><span>中高</span></td></tr></tbody></table></figure><ul><li><span>去除比较底层，学习成本较大的库(</span><strong><a href='https://d3js.org/'><span>D3.js</span></a></strong><span>,</span><strong><a href='https://g6.antv.vision/zh'><span>G6</span></a></strong><span>)</span></li><li><span>去除绑定特定框架，不能在自己项目中灵活应用的库(</span><strong><a href='https://graphin.antv.vision/'><span>Graphin</span></a></strong><span>)</span></li><li><strong><a href='https://echarts.apache.org/'><span>Echarts</span></a></strong><span>和基于</span><strong><a href='https://d3js.org/'><span>D3.js</span></a></strong><span>的</span><strong><a href='https://gitee.com/baopengdu/GraphVis'><span>GraphVis</span></a></strong><span>都值得学习，</span><strong><a href='https://gitee.com/baopengdu/GraphVis'><span>GraphVis</span></a></strong><span>更专精在图谱可视化分析，根据学习图分析的目的取</span><strong><a href='https://gitee.com/baopengdu/GraphVis'><span>GraphVis</span></a></strong><span>进行学习，后期深入学习图可视化可能会用到图分析更专精的</span><strong><a href='https://graphin.antv.vision/'><span>Graphin</span></a></strong><span>，第六期前端可视化综合实战部分可能会用组件功能更丰富的</span><strong><a href='https://echarts.apache.org/'><span>Echarts</span></a></strong></li></ul><p><strong><span>图数据库选型</span></strong></p><figure><table><thead><tr><th><span>名称</span></th><th><span>特征</span></th></tr></thead><tbody><tr><td><strong><a href='https://neo4j.com/'><span>Neo4j</span></a></strong></td><td><span>社区版开源，使用广泛，有python封装</span></td></tr><tr><td><strong><a href='https://www.arangodb.com/'><span>ArangodDB</span></a></strong></td><td><span>开源，python,go封装完备，内置Foxx可拓展，事务，性能，提供文档/键值对储存模型，可以储存时间序列和GIS信息，机器学习组件支持</span></td></tr><tr><td><strong><a href='https://janusgraph.org/'><span>JanusGraph</span></a></strong></td><td><span>开源，python封装完备，事务，可扩展，支持原生图谱分析推理</span></td></tr><tr><td><strong><a href='https://www.zhihu.com/org/nebulagraph'><span>NebulaGraph</span></a></strong></td><td><span>开源，分布式免费</span></td></tr><tr><td><strong><a href='https://www.tigergraph.com/'><span>TigerGraph</span></a></strong></td><td><span>闭源</span></td></tr></tbody></table></figure><ul><li><span>闭源直接Pass，另外综合考虑社区因素(neo4j和arangodb社区比较好)，技术因素(arangodb功能比neo4j丰富许多)，故选用arangodb</span></li><li><span>arangodb节点能以json储存且是多模型数据库，原生支持分析时需要用到的地理/时间等格式的信息储存</span></li></ul><p><strong><span>前端框架选型</span></strong></p><figure><table><thead><tr><th><span>名称</span></th><th><span>学习成本</span></th></tr></thead><tbody><tr><td><strong><a href='https://svelte.dev/'><span>Svelte</span></a></strong></td><td><span>中</span></td></tr><tr><td><strong><a href='https://zh-hans.reactjs.org/'><span>React</span></a></strong></td><td><span>高</span></td></tr><tr><td><strong><a href='https://cn.vuejs.org/index.html'><span>Vue</span></a></strong></td><td><span>高</span></td></tr></tbody></table></figure><ul><li><span>可以详看这个比较：</span><a href='https://dev.to/hb/react-vs-vue-vs-angular-vs-svelte-1fdm' target='_blank' class='url'>https://dev.to/hb/react-vs-vue-vs-angular-vs-svelte-1fdm</a></li><li><span>框架并没有绝对的优劣，个人观点就体验而言，</span><strong><a href='https://svelte.dev/'><span>Svelte</span></a></strong><span>开发效率和便捷性还是非常适合数据分析人员使用的．React和Vue技术栈较深，更适合专业前端</span></li><li><span>另外选用</span><strong><a href='https://svelte.dev/'><span>Svelte</span></a></strong><span>可以将自己的项目组件与</span><a href='https://github.com/Budibase/budibase'><span>Budibase</span></a><span>结合，进行低代码开发和复用</span></li></ul><h2><a name="贡献者信息" class="md-header-anchor"></a><span>贡献者信息</span></h2><figure><table><thead><tr><th style='text-align:center;' ><span>姓名</span></th><th style='text-align:center;' ><span>介绍</span></th><th style='text-align:center;' ><span>个人主页</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><span>夏凡</span></td><td style='text-align:center;' ><span>－</span></td><td style='text-align:center;' ><a href='https://github.com/sovlookup' target='_blank' class='url'>https://github.com/sovlookup</a></td></tr><tr><td style='text-align:center;' ><span>段秋阳</span></td><td style='text-align:center;' ><span>－</span></td><td style='text-align:center;' ><a href='https://github.com/DallasAutumn' target='_blank' class='url'>https://github.com/DallasAutumn</a></td></tr></tbody></table></figure><hr /></div>
+</body>
+</html>
