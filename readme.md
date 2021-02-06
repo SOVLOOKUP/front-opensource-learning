@@ -290,7 +290,7 @@ BudiBase官方的支持(Discord)
 |  姓名  | 介绍 |            个人主页             |
 | :----: | :--: | :-----------------------------: |
 |  夏凡  |  －  |  https://github.com/sovlookup   |
-| 段秋阳 |  －  | https://github.com/DallasAutumn |
+| 段秋阳 |  DataWhale成员  | https://github.com/DallasAutumn |
 
 ---
 
