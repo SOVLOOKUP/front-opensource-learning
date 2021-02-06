@@ -2,6 +2,12 @@
 
 本来是自己学习的路线，但是和别人沟通以后发现，原来这个痛点很普遍，于是写下这个路线，希望感兴趣的小伙伴来一起参与开源学习.
 
+仓库地址：https://github.com/SOVLOOKUP/front-opensource-learning
+
+克隆加速地址：git@git.zhlh6.cn:SOVLOOKUP/front-opensource-learning
+
+github-page页面：https://sovlookup.github.io/front-opensource-learning/
+
 ## 问题背景
 
 ### 需求
@@ -90,7 +96,7 @@ Graph is the future.
 
 
 
-![simplescreenrecorder-2021-01-30_23.03.19 00_00_02-00_00_10 [480p]](project.assets/simplescreenrecorder-2021-01-30_23.03.19%2000_00_02-00_00_10%20%5B480p%5D.gif)
+![](https://i.loli.net/2021/02/06/EvkgzbGcM1SUCTW.gif)
 
 
 
@@ -100,23 +106,23 @@ Graph is the future.
 
 像excel一样编辑数据
 
-<img src="project.assets/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_plasmashell_20210130231512.png" alt="深度截图_plasmashell_20210130231512" style="zoom: 50%;" />
+<img src="https://i.loli.net/2021/02/06/JkpqrjQlZDOT5sY.png" alt="深度截图_plasmashell_20210130231512" style="zoom: 50%;" />
 
 可见即可得地编辑页面
 
-<img src="project.assets/design-ui.png" alt="Design" style="zoom:50%;" />
+<img src="https://i.loli.net/2021/02/06/zGYJqk51xsht9Tv.png" alt="Design" style="zoom:50%;" />
 
 用流程图表示程序
 
-<img src="project.assets/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_plasmashell_20210130231534.png" alt="深度截图_plasmashell_20210130231534" style="zoom:50%;" />
+<img src="https://i.loli.net/2021/02/06/m7lFK1WiDZ5IdTC.png" alt="深度截图_plasmashell_20210130231534" style="zoom:50%;" />
 
 部署上线
 
-<img src="project.assets/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_plasmashell_20210130231615.png" alt="深度截图_plasmashell_20210130231615" style="zoom:50%;" />
+<img src="https://i.loli.net/2021/02/06/ZxokYRGszAUWpVi.png" alt="深度截图_plasmashell_20210130231615" style="zoom:50%;" />
 
 #### 大作业(为1k+star的开源项目贡献图可视化组件)
 
-<img width="140" height="50"  src="project.assets/budibase-logo.svg"/> https://github.com/Budibase/budibase
+<img width="140" height="50"  src="https://i.loli.net/2021/02/06/9QZBA3pkltI4PMD.png"/> https://github.com/Budibase/budibase
 
 **目的**：
 
@@ -133,19 +139,19 @@ Graph is the future.
 
 #### 3.1 图数据分析原理(python库)
 
-<img src="project.assets/68747470733a2f2f706572736f2e74656c65636f6d2d7061726973746563682e66722f626f6e616c642f6c6f676f5f736b6e6574776f726b2e706e67" style="zoom: 80%;" />
+<img src="https://i.loli.net/2021/02/06/Hy8x1ZvVRdYsbmJ.png" style="zoom: 80%;" />
 
 https://github.com/sknetwork-team/scikit-network
 
 #### 3.2 图数据分析可视化实战
 
-<img src="project.assets/68747470733a2f2f67772e616c697061796f626a656374732e636f6d2f6d646e2f726d735f3030656463622f616674732f696d672f412a4e2d35505436554f394c414141414141414141414141426b4152516e4151" style="zoom: 50%;" />
+<img src="https://i.loli.net/2021/02/06/aIkueN7mypDKsb1.gif" style="zoom: 50%;" />
 
 https://github.com/antvis/Graphin
 
 ### 4. 图数据时空分析实战
 
-![65d5dbe8-d78d-4c6b-9318-fa06b1456784 00_00_00-00_00_08 [480p]](project.assets/65d5dbe8-d78d-4c6b-9318-fa06b1456784%2000_00_00-00_00_08%20%5B480p%5D.gif)
+![](https://i.loli.net/2021/02/06/XMQ5EhYLJlfN6Kc.gif)
 
 https://github.com/antvis/L7 or https://github.com/keplergl/kepler.gl
 
@@ -291,6 +297,10 @@ BudiBase官方的支持(Discord)
 | :----: | :--: | :-----------------------------: |
 |  夏凡  |  －  |  https://github.com/sovlookup   |
 | 段秋阳 |  DataWhale成员  | https://github.com/DallasAutumn |
+
+加我微信拉入团队群：
+
+![f6b73431289e43e74f8f86a2c5c5e11.jpg](https://i.loli.net/2021/02/06/9PwM8dGHEfxmhQ1.jpg)
 
 ---
 
