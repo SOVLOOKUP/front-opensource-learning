@@ -299,13 +299,25 @@ BudiBase官方的支持(Discord)
 - 框架并没有绝对的优劣，个人观点就体验而言，**[Svelte](https://svelte.dev/)**开发效率和便捷性还是非常适合数据分析人员使用的．React和Vue技术栈较深，更适合专业前端
 - 另外选用**[Svelte](https://svelte.dev/)**可以将自己的项目组件与[Budibase](https://github.com/Budibase/budibase)结合，进行低代码开发和复用
 
-## 贡献者信息
+## Contributors✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
-|  姓名  | 介绍 |            个人主页             |
-| :----: | :--: | :-----------------------------: |
-|  夏凡  |  －  |  https://github.com/sovlookup   |
-| 段秋阳 |  DataWhale成员  | https://github.com/DallasAutumn |
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 
 加我微信拉入团队群：
 
