@@ -8,7 +8,7 @@
 
 github-page页面：https://sovlookup.github.io/front-opensource-learning/
 
-本文为内部路线设计文案，具体课程内容在 `src` 目录下
+本文为内部路线设计文案，具体课程内容在 `content` 目录下
 
 贡献参与方法:
 1. 查看projects和issues认领开源内容
