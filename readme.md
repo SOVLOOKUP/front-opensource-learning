@@ -1,12 +1,21 @@
-# 数据分析者的前端开源学习路线
+# 数据分析者的前端开源学习路线设计方案
 
 本来是自己学习的路线，但是和别人沟通以后发现，原来这个痛点很普遍，于是写下这个路线，希望感兴趣的小伙伴来一起参与开源学习.
 
 仓库地址：https://github.com/SOVLOOKUP/front-opensource-learning
 
-克隆加速地址：git@git.zhlh6.cn:SOVLOOKUP/front-opensource-learning
+加速克隆地址：https://hub.fastgit.org/SOVLOOKUP/front-opensource-learning
 
 github-page页面：https://sovlookup.github.io/front-opensource-learning/
+
+本文为内部路线设计文案，具体课程内容在 `src` 目录下
+
+贡献参与方法:
+1. 查看projects和issues认领开源内容
+2. fork仓库到自己帐号下
+3. clone自己的仓库到本地
+4. 提交你的内容到自己的仓库中
+5. 提起Pull Requst
 
 ## 问题背景
 
