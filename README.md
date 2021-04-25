@@ -7,7 +7,7 @@ Graph & Front Learning
 
 [直击正题 -> **学习内容在 `contents` 目录下**](https://sovlookup.github.io/front-opensource-learning/contents/)	
 
-[在找内部设计文案？](./README.bak) 
+[在找内部设计文案？](./README.bak.md) 
 
 仓库地址：https://github.com/SOVLOOKUP/front-opensource-learning
 
