@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SOVLOOKUP",
+      "name": "于北",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53158137?v=4",
+      "profile": "https://github.com/SOVLOOKUP",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "DallasAutumn",
+      "name": "Qiuyang Duan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34374626?v=4",
+      "profile": "https://github.com/DallasAutumn",
+      "contributions": [
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "front-opensource-learning",
+  "projectOwner": "SOVLOOKUP",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
