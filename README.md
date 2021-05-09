@@ -2,7 +2,7 @@
 Graph & Front Learning
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [直击正题 -> **学习内容在 `contents` 目录下**](https://sovlookup.github.io/front-opensource-learning/contents/)	
@@ -90,15 +90,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
 <table>
   <tr>
     <td align="center"><a href="https://github.com/SOVLOOKUP"><img src="https://avatars.githubusercontent.com/u/53158137?v=4?s=100" width="100px;" alt=""/><br /><sub><b>于北</b></sub></a><br /><a href="#content-SOVLOOKUP" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/DallasAutumn"><img src="https://avatars.githubusercontent.com/u/34374626?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Qiuyang Duan</b></sub></a><br /><a href="#ideas-DallasAutumn" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/mengzhongjack"><img src="https://avatars.githubusercontent.com/u/11817905?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mengzhongjack</b></sub></a><br /><a href="https://github.com/SOVLOOKUP/front-opensource-learning/commits?author=mengzhongjack" title="Code">💻</a></td>
   </tr>
 </table>
-
-
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
